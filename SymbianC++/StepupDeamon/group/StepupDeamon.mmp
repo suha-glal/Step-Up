@@ -1,0 +1,24 @@
+/*
+============================================================================
+ Name		: StepupDeamon.mmp
+ Author	  : suha
+ Copyright   : Your copyright notice
+ Description : This is the project specification file for StepupDeamon.
+============================================================================
+*/
+
+TARGET		  StepupDeamon.exe
+TARGETTYPE	  exe
+UID			 0 0xE51B93E8
+
+USERINCLUDE	 ..\inc
+SYSTEMINCLUDE   \epoc32\include
+
+SOURCEPATH	  ..\src
+SOURCE		  StepupDeamon.cpp AccelometerReadings.cpp CSensorDataFilter.cpp Listener.cpp MotionClassifier.cpp
+
+LIBRARY		 euser.lib flogger.lib insock.lib esock.lib RRSensorApi.lib
+
+#ifdef ENABLE_ABIV2_MODE
+DEBUGGABLE_UDEBONLY
+#endif

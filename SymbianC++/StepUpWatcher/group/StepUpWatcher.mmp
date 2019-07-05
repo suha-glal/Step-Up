@@ -1,0 +1,31 @@
+/*
+============================================================================
+ Name		: StepUpWatcher.mmp
+ Author	  : suha
+ Copyright   : Your copyright notice
+ Description : This is the project specification file for StepUpWatcher.
+============================================================================
+*/
+
+TARGET		  StepUpWatcher.exe
+TARGETTYPE	  exe
+UID			 0 0xE8BEF1B0
+
+USERINCLUDE	 ..\inc
+SYSTEMINCLUDE   \epoc32\include
+
+SOURCEPATH	  ..\src
+SOURCE		  StepUpWatcher.cpp
+
+LIBRARY		 euser.lib insock.lib esock.lib
+
+#ifdef ENABLE_ABIV2_MODE
+  DEBUGGABLE_UDEBONLY
+#endif
+
+SOURCEPATH ..\data
+START RESOURCE ExampleAutoStart.rss
+	TARGET ExampleAutoStart.rsc
+	TARGETPATH \resource
+END
+

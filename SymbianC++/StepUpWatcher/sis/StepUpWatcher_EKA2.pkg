@@ -1,0 +1,26 @@
+; Installation file for Symbian OS 9.x for generic console application
+; Installation file for StepUpWatcher EXE
+;
+; This is an auto-generated PKG file by Carbide.
+; This file uses variables specific to Carbide builds that will not work
+; on command-line builds. If you want to use this generated PKG file from the
+; command-line tools you will need to modify the variables with the appropriate
+; values: $(EPOCROOT), $(PLATFORM), $(TARGET)
+;
+
+;
+; UID is the exe's UID
+;
+#{"StepUpWatcher EXE"},(0xE8BEF1B0),1,0,0
+
+
+;Localised Vendor name
+%{"Vendor-EN"}
+
+;Unique Vendor name
+:"Vendor"
+
+@"StepupDeamon.sisx",(0xE51B93E8)
+"$(EPOCROOT)Epoc32\release\$(PLATFORM)\$(TARGET)\StepUpWatcher.exe"		  -"!:\sys\bin\StepUpWatcher.exe",FR,RI
+"$(EPOCROOT)epoc32\data\z\resource\ExampleAutoStart.rSC"-"c:\private\101f875a\import\[E8BEF1B0].rsc"
+
