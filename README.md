@@ -22,3 +22,6 @@ This component is responsible for establishing connections to the backend server
 Download manager:
 This component is responsible for getting information from the backend servers according to the user requests, these information includes the current progress of the team members or any historical information about your team members performance in the past days, weeks or months. 
 
+A complete description of the application can be found in the following two scientific papers:
+1. https://www.researchgate.net/profile/S_Glal/publication/224120282_StepUp_A_step_counter_mobile_application_to_promote_healthy_lifestyle/links/575e692c08ae9a9c955a7c32.pdf
+2. https://www.sciencedirect.com/science/article/pii/S074756321300246X
