@@ -8,6 +8,8 @@ Abu Dhabi University
 
 This project was under the supervison of Dr. Ashraf Khalil
 
+The system is built to promote physical activity between group members. It consists of a server application and a mobile application (client).The mobile application sends periodic data to the server application and can request data from the server application. We used Apache HTTP Server ,MySQL database ,PHP and phpMyAdmin. It was developed using symbian C++ and J2ME. The tools used to develop it include Carbide C++ v2, S60 SDK, NetBeans IDE and Wamp server. (May, 2010)
+
 ## Introduction
 
 StepUp, a step counter application. StepUp exploits off-the-shelf, sensor-enabled mobile phones to automatically infer the number of steps the user walked. We discuss results of the deployment of StepUp on off-the-shelf mobile phones. We implemented StepUp on Nokia N95 8GB phones. The application is written in Symbian C++ and Java.
